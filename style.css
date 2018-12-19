@@ -1,0 +1,20 @@
+.btn {
+    background-color: grey;
+    color: white;
+    display: inline;
+    font-size: 70px;
+    cursor: pointer;
+    padding: 6px;
+}
+.btn:hover {
+    background: white;
+    color: blue;
+    text-decoration: underline;
+    /* or border-bottom: underline; */
+}
+.btn:active {
+    background: white;
+    color: red;
+    border-style: dashed;
+    text-decoration: none;
+}
